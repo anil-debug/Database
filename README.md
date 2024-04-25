@@ -22,7 +22,7 @@ Before using this script, ensure that you have the following:
      ```
      python script_name.py
      ```
-   - Ensure that the script file (`script_name.py`) contains the provided code.
+   - Ensure that the script file (`postgre_connect.py.py`) contains the provided code.
 
 3. **Expected Output**:
    - Upon execution, the script will attempt to connect to the PostgreSQL database using the provided connection details.
