@@ -20,7 +20,7 @@ Before using this script, ensure that you have the following:
 2. **Run the Script**:
    - Execute the script by running it with Python:
      ```
-     python script_name.py
+     python postgre_connect.py
      ```
    - Ensure that the script file (`postgre_connect.py.py`) contains the provided code.
 
