@@ -1,3 +1,19 @@
+# PostgreSQL Docker Compose Setup
+
+## Overview
+This Docker Compose file provides a simple setup for running a PostgreSQL database using Docker. It uses the official `postgres` Docker image and exposes port `5432` for communication.
+
+### Usage:
+1. Ensure you have Docker installed on your system.
+2. Create a new directory and place the `docker-compose.yml` file inside it.
+3. Open a terminal or command prompt, navigate to the directory containing the `docker-compose.yml` file, and run the following command:
+     ```
+    docker-compose up
+    ```
+4. Docker will pull the PostgreSQL image from Docker Hub and start the container. You can now interact with the PostgreSQL database using the specified port (`5432`).
+
+
+
 # PostgreSQL Interaction Script
 
 ## Overview
