@@ -38,18 +38,3 @@ You can customize the script according to your specific requirements:
 
 ## Notes
 - This script assumes that PostgreSQL is running on the local machine (`localhost`) with the default port (`5432`). Modify the `PostgreSQLInteraction` class constructor if your PostgreSQL instance is located elsewhere or using a different port.
-
-
-# Modbus Data Sender
-
-## Overview
-
-This Python script demonstrates how to send data to a Modbus TCP/IP device using the `pymodbus` library. It connects to a Modbus device, serializes data to JSON format, and writes the data to a holding register on the device.
-
-## Prerequisites
-
-- Python 3.x installed on your system
-- `pymodbus` library installed. You can install it using pip:
-
-```bash
-pip install pymodbus
