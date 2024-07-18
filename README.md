@@ -67,7 +67,7 @@ This script provides a convenient way to interact with a PostgreSQL database usi
 3. **Run the Script**:
    - Execute the script by running it with dotnet:
      ```
-     cd  cd MyPostgresApp
+     cd MyPostgresApp
      dotnet build
      dotnet run
      ```
