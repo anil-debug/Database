@@ -14,7 +14,7 @@ This Docker Compose file provides a simple setup for running a PostgreSQL databa
 
 
 
-# PostgreSQL Interaction Script
+# PostgreSQL Interaction Script with Python
 
 ## Overview
 This script provides a convenient way to interact with a PostgreSQL database using Python and the `psycopg2` library. It allows you to perform operations such as connecting to the database, creating tables, inserting data, and closing the connection.
@@ -54,3 +54,7 @@ You can customize the script according to your specific requirements:
 
 ## Notes
 - This script assumes that PostgreSQL is running on the local machine (`localhost`) with the default port (`5432`). Modify the `PostgreSQLInteraction` class constructor if your PostgreSQL instance is located elsewhere or using a different port.
+# PostgreSQL Interaction Script with C#
+## Overview
+This script provides a convenient way to interact with a PostgreSQL database using Python and the `Npgsql` library. It allows you to perform operations such as connecting to the database, creating tables, inserting data, and closing the connection.
+
