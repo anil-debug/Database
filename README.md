@@ -57,4 +57,9 @@ You can customize the script according to your specific requirements:
 # PostgreSQL Interaction Script with C#
 ## Overview
 This script provides a convenient way to interact with a PostgreSQL database using Python and the `Npgsql` library. It allows you to perform operations such as connecting to the database, creating tables, inserting data, and closing the connection.
+1. **Make sure add  Npgsql**:
+   ```
+   cd MyPostgresApp
+   dotnet add package Npgsql
+   ```
 
