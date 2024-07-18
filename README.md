@@ -62,4 +62,15 @@ This script provides a convenient way to interact with a PostgreSQL database usi
    cd MyPostgresApp
    dotnet add package Npgsql
    ```
+2. **Connection Details**:
+   - Replace the `dbname`, `user`, and `password` variables in the `Program.cs` function with your PostgreSQL database name, username, and password, respectively.
+3. **Run the Script**:
+   - Execute the script by running it with dotnet:
+     ```
+     cd  cd MyPostgresApp
+     dotnet build
+     dotnet run
+     ```
+   - Ensure that the script file (`Program.cs`) contains the provided code.
+
 
